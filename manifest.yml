@@ -1,0 +1,7 @@
+---
+applications:
+- name: canary-python
+  memory: 128MB
+  disk_quota: 256MB
+  buildpack: https://github.com/cloudfoundry/python-buildpack.git
+  command: python hello.py
